@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>RealTime Comment System</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h4><strong>Realtime comment system using node.js express, mongoDB, soket.io and javscript</strong></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ipsum ipsam quis eligendi
+                    quibusdam magni distinctio iste cumque, itaque suscipit incidunt illo sed voluptatum optio tempora
+                    similique. Aut laborum nihil, libero saepe tempora
+                    error eum quaerat deserunt perferendis veniam fuga consequuntur enim illum eligendi ea velit
+                    harum unde. Minima.</p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="border-bottom pb-2">Comments</h4>
+            </div>
+
+            <div class="col-md-12">
+                <div class="from-group">
+                    <label for="">Write a comment</label>
+                    <textarea id="textArea" rows="3" class="form-control"></textarea>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <button class="btn btn-primary float-end mt-2" id="submitbtn">
+                    Post Comment
+                </button>
+            </div>
+        </div>
+
+        <div calss="row">
+            <div class="col-md-12">
+                <div class="typing text-sucess"></div>
+                <ul class="comment_box mt-2">
+                    <!-- <li class="comment">
+                        <div class="card border=light mb-3 ">
+                            <div class="card-body">
+                             <h6>Jone deo</h6>
+                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel et atque soluta odio animi fugit?</p>
+                             <div>
+                                <span><i class="far fa-clock"></i></span>
+                                <small>22:34pm</small>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </li> -->
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+</body>
+
+</html>

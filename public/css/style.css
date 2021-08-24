@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    background: whitesmoke;
+    -webkit-font-smoothing :antialiased;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.comment_box{
+    list-style: none;
+    padding-left: 0;
+}
+
+.comment_box .comment h6{
+    font-weight: 600;
+}
+
+/* animation comment box  */
+
+.comment{
+    animation: upTodown .6s ease forwards;
+    -webkit-animation: upTodown .6s ease forwards;
+}
+
+@keyframes upTodown {
+    0%{
+     transform: translateY(-30px);
+     -webkit-transform: translateY(-30px);
+     -moz-transform: translateY(-30px);
+     -ms-transform: translateY(-30px);
+     -o-transform: translateY(-30px);
+     opacity: 0;
+}
+    100%{
+     transform: translateY(0px);
+     -webkit-transform: translateY(0px);
+     -moz-transform: translateY(0px);
+     -ms-transform: translateY(0px);
+     -o-transform: translateY(0px);
+     opacity: 1;
+}
+}

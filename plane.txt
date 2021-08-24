@@ -1,0 +1,26 @@
+1. Create a npm project and install dependancies , express , moment, nodemon.
+
+2. Create a folders and file all we need.  public, js, index, css, img.
+
+3. Setup express server server.js.
+
+4. Do front part html and css.
+
+5. Post comment logic , append to dom  , install soket.io , emit event from clicnt.
+
+6. Liten and brodcast the event from server
+
+7. Listen and brodcast the event from client
+
+8. Append the comment animation 
+
+9.typing.. animation
+
+10.Sync with db connect to mongobd , install themongoose and create model .
+
+11. create a route and db logic
+
+12. Save a omment to db on your post
+
+13.show comment from Db load
+
