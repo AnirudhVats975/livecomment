@@ -4,7 +4,7 @@ let socket = io();
 let username;
 
 do {
-    username = prompt(`Enter Your Naame`);
+    username = prompt(`Enter Your Name`);
 } while (!username)
 
 
